@@ -1,0 +1,214 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+:focus {
+  outline: 0;
+}
+
+body {
+  color: #000;
+  background: #ddd;
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+
+blockquote,
+q {
+  quotes: "" "";
+}
+
+html {
+  box-sizing: border-box;
+  font-family: monospace;
+  overflow: hidden;
+}
+
+body {
+  background-color: ivory;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: 10px 0 12px;
+  font-weight: 600;
+}
+
+#controls {
+  font-family: monospace;
+}
+
+#controls input[type="range"] {
+  vertical-align: middle;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+#controls label {
+  width: 220px;
+  height: 0.8em;
+  font-family: monospace;
+  display: inline-block;
+}
+
+#controls em {
+  font-weight: 800;
+}
+
+#controls #wall {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  width: 210px;
+  height: auto;
+  padding: 5px;
+}
+
+#controls #wall button {
+  text-align: left;
+  width: 100%;
+  margin: 15px 0;
+  font-family: monospace;
+}
+
+#controls #wall select {
+  max-width: 208px;
+  margin: 10px 0;
+  font-family: monospace;
+}
+
+#controls #wall select option {
+  width: 100%;
+  min-height: 20px;
+}
+
+#controls #colladas {
+  height: calc(100vh - 255px);
+  margin-top: 0;
+  font-family: monospace;
+  overflow-y: auto;
+}
+
+#controls #colladas .collada {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  width: 210px;
+  margin: 10px 0 20px;
+  padding: 5px;
+}
+
+#controls #colladas .collada button {
+  float: right;
+  margin: 0;
+  font-family: monospace;
+}
+
+#controls #colladas .collada:first-child {
+  margin-top: 0;
+}
+
+#left {
+  overflow: none;
+  float: left;
+  width: calc(100vw - 240px);
+  height: 100vh;
+}
+
+#left #view3D {
+  float: left;
+  width: 100%;
+  height: 100vh;
+}
+
+#right {
+  float: right;
+  overflow: none;
+  width: 240px;
+}
